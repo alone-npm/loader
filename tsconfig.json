@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/types",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./dist/types"
+    ],
+    "module": "esnext",
+    "target": "es2022",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "emitDeclarationOnly": true,
+    "lib": [
+      "es2022",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "checkJs": false,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "importHelpers": true
+  },
+  "include": [
+    "src/**/*",
+    "./dist/types/**/*"
+  ]
+}
